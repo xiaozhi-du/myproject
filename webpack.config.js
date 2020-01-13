@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
+
   module.exports = {
     entry:  './src/main.js',
     output: {
@@ -15,6 +16,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
      }),
      new CleanWebpackPlugin(),
      new VueLoaderPlugin(),
+     
    ],
    devServer: {
      contentBase: './dist',
@@ -65,6 +67,8 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
                 },
            ]
        },
+       
+      
    resolve:{
     //    alias:{
     //        "vue$":"vue/dist/vue.js"

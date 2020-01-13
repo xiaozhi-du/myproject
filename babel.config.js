@@ -14,6 +14,7 @@ module.exports = function (api) {
         ],
         '@babel/plugin-transform-arrow-functions',
         '@babel/plugin-transform-runtime',
+        ['transform-remove-strict-mode']
     ];
   
     return {

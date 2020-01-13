@@ -1,6 +1,5 @@
 <template>
 <div class="newsinfo-container">
-    <!-- <h1>新闻详情 - {{ $route.params.id }}</h1> -->
     <h3 class="title">{{ newsinfo.title }}</h3>
     <p class="subtitle">
         <span>发表时间：{{ newsinfo.add_time | dateFormat }}</span>
